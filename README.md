@@ -1,10 +1,14 @@
 SismoAlerta - It is a web page that allows the user to investigate and be informed about the latest seismic activities detected in the world, the focus of the project was mainly for people from Chile, for which a section of information provided by Onemi was also added.
 
+Test it!
+https://matihdz.github.io/SismoAlerta/
+
 This is a test project to put new React knowledge into practice. The best practices of code that can be used in React were not used for the same reason that it is an introductory project to the tool.
 
 The most important knowledge used:
 - Responsive Web Design.
 - React; Functional Components, Hooks.
+- API.
 
 -----------------------------------------------------------------------------------
 
