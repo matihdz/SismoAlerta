@@ -1,0 +1,9 @@
+.errorMsg{
+  padding: .5rem 2rem;
+  font-weight: bold;
+  background-color: var(--alert-error);
+  text-align: center;
+
+  border-radius: 2px;
+  margin-top: 1rem;
+}

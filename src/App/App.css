@@ -1,0 +1,30 @@
+.header{
+  height: max-content;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  background-color: var(--fifth);
+  color: var(--third);
+  padding: 3rem 0 3rem 0;
+} 
+
+.header__title {
+  font-size: 4rem;
+  text-align: center;
+}
+
+.header__paragraph {
+  font-size: 2em;
+  width: 60%;
+  text-align: justify;
+  color: var(--fourth);
+}
+
+.onemi-link{
+  text-decoration: none;
+  font-style: italic;
+  color: var(--second);
+}

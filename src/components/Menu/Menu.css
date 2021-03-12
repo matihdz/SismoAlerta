@@ -1,0 +1,73 @@
+.menu, .menu__section{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.menu__section {
+  width: 80%;
+  padding: 2rem;
+  border-radius: 7px;
+}
+
+.nav{
+  margin-top: 2rem;
+}
+[class*="nav__btn"]{
+  font-size: 1.8rem;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px 5px 0 0;
+  background-color: unset;
+  padding: 1rem;
+}[class*="nav__btn"]:focus{
+  outline: none;
+}.nav__btn--OR{
+  margin-left: 2rem;
+}
+
+/* Active/Inactive Buttons/Sections*/
+
+.btn-active, .section-active {
+  background-color: var(--fifth);
+  color: var(--fourth);
+  font-weight: bold;
+
+  box-shadow: 0 0 5px rgba(var(--fifth-sh), 0.801);
+}
+
+.btn-active{
+
+}
+.btn-inactive{
+  background-color: var(--fourth);
+  color: var(--fifth);
+  font-weight: bold;
+
+  transition: background-color .2s ease-in-out;
+}.btn-inactive:hover{
+  background-color: var(--sixth);
+}
+
+
+.section-active{
+  display: block;
+}
+.section-inactive{
+  display: none;
+}
+
+.btn-inactive, .section-inactive {
+  box-shadow: 0 0 5px rgba(var(--fourth-sh), 0.801);
+}
+
+@media (max-width: 575px) {
+  .menu__section {
+    border-radius: 5px;
+    padding: 1.5rem;
+    width: 90%;
+  }
+ .nav__btn--OR{
+   margin-left: .3rem;
+ }
+}

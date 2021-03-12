@@ -1,0 +1,62 @@
+.articleLE{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+
+  width: 80%;
+  padding: 2rem;
+  margin: 1rem auto;
+
+  font-size: 1.6rem;
+  color: var(--fifth);
+  background-color: var(--second);
+  border-radius: 7px;
+}
+
+[class^="articleLE__"]{
+  margin: 0;
+  margin-bottom: .5rem;
+}
+
+.articleLE__place{
+  align-self: center;
+  font-size: 1.65em;
+  text-align: center;
+}
+
+.articleLE__magnitude, .articleLE__depth, .articleLE__longitude, .articleLE__latitude {
+  align-self: center;
+  text-shadow: 0 0 1px rgba(var(--fifth-sh), .8);
+}
+.articleLE__magnitude{
+  color: var(--primary);
+  font-size: 1.25em;
+}
+.articleLE__depth{
+  margin-bottom: 2.5rem;
+}
+.articleLE__longitude{
+  
+}
+.articleLE__latitude{
+  margin-top: 2.5rem;
+}
+
+
+.articleLE__chilean-time{
+
+}
+.articleLE__local-time{
+
+}
+.articleLE__source{
+
+}
+
+
+@media (max-width: 900px) {
+  .articleLE{
+    width: 93%;
+  }
+}

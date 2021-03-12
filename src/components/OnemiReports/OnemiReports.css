@@ -1,0 +1,38 @@
+.articleOR{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  width: 70%;
+  margin: 1rem auto;
+  padding: 1.5rem;
+
+  font-size: 1.6rem;
+  border-bottom: 3px ridge var(--fourth);
+
+}
+
+[class^="articleOR__"]{
+  margin: 0;
+}
+
+.articleOR__region{
+  color: var(--third);
+  text-align: center;
+}
+.articleOR__info{
+  margin-top: 1rem;
+  text-align: justify;
+  align-self: flex-start;
+}
+.articleOR__date{
+  margin-top: 1.5rem;
+  text-shadow: 0 0 1px rgba(var(--third-sh), .8);
+}
+
+@media (max-width: 900px) {
+  .articleOR{
+    width: 93%;
+  }
+}
