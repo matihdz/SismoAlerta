@@ -7,7 +7,7 @@ const validateForm = (info) => {
     return false;
   } else {
     if(!validateTextsInputs(info)){
-      alertHTML('error', 'Numeros y simbolos no están permitidos')
+      alertHTML('error', 'Números y simbolos no están permitidos')
       return false;
     } else {
       return true;

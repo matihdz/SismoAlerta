@@ -6,9 +6,12 @@ const alertHTML = (type, msg) => {
 
   if(!alertIsExist && selectForm){
 
-    const alert = document.createElement('p');
+    const alert = document.createElement('div');
+    const paragraphAlert = document.createElement('div');
     alert.classList.add('alert');
-    alert.textContent = msg;
+    paragraphAlert.classList.add('paragraphAlert');
+    paragraphAlert.textContent = msg;
+    alert.appendChild(paragraphAlert);
   
     if(type === 'error'){
       alert.classList.add('errorMsg');
